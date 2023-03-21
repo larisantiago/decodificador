@@ -1,0 +1,117 @@
+header{
+
+}
+
+.headerImg img {
+    max-width: 300px;
+    max-height: 200px;
+    margin: 10px 20px 10px 60px;
+    width: auto;
+    height: auto;
+    border-radius: 5em;
+    
+}
+
+body {
+    background: #f4f4f4;
+    
+}
+
+h1 {
+    font-family: 'PT Mono', monospace;
+    text-align: center;
+}
+
+h5{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    display: block;
+    margin-left: 20px;
+
+}
+
+main {
+    display: flex;
+    margin: 20px 20px 60px 20px;
+}
+
+.txt-cod {
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+    border: none;
+    padding: 8px;
+    text-transform: lowercase;
+    
+
+    
+}
+
+.txt-decod{
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+    border-style: none;
+    background-color: #f4f4f4;
+    text-transform: lowercase;
+    background-image: url(/pictures/lupa.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: right;
+}
+
+textarea {
+    margin-right: 2cm;
+}
+
+
+.botao-crip {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 150px;
+    background: #d07666;
+    border-radius: 100px;
+    cursor: pointer;
+    font-family: 'PT Mono', monospace;
+    
+}
+
+.botao-copiar {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 250px;
+    background: #d07666;
+    border-radius: 100px;
+    cursor: pointer;
+    font-family: 'PT Mono', monospace;
+}
+
+.botao-decod {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 150px;
+    background: #999693;
+    border-radius: 100px;
+    cursor: pointer;
+    font-family: 'PT Mono', monospace;
+}
+
+footer {
+    text-align: center;
+    background-color: #d07666;
+    padding: 10px 0;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.copy {
+    color: white;
+    font-size: 13px;
+    margin-top: 15px;
+    
+}
+
+.autor {
+    color: white;
+}

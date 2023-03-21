@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+    </style>
+    
+    <title>Decodificador</title>
+    
+</head>
+
+<body>
+    <header>
+        <div class="headerImg">
+            <img src="pictures/typewrite.jpg" alt="Máquina de Escrever">
+        </div>
+        <h1>Codifique sua mensagem!</h1>
+
+        
+        <h5>&#8505; Apenas letras minúsculas e sem acento.</h5>
+        
+    </header>
+
+    <main>
+
+        
+        <section>
+            
+            <textarea class="txt-cod" cols="40" rows="6" placeholder="Digite o seu texto aqui..."></textarea>
+            <button class="botao-crip" onclick="btnCrip()">Criptografar</button>
+            <button class="botao-decod">Descriptografar</button>
+            
+        </section>
+        
+        
+
+        <section>
+        
+           
+            <textarea class="txt-decod" cols="40" rows="6" placeholder="Digite um texto que você deseja criptografar ou descriptografar."></textarea>
+            
+            <button class="botao-copiar">Copiar</button>
+        </section>
+    </main>    
+    
+    <script src="script.js"></script>
+</body>
+<footer>
+    
+    <p class="copy">&copy; Alura & Oracle ONE</p>
+    <div class="autor">
+      <p>Feito por Larissa Santiago</p>
+    </div>
+</footer>
+</html>
