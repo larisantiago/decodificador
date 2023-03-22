@@ -21,3 +21,9 @@ https://user-images.githubusercontent.com/114541799/226768668-1dffcbf3-32b8-41fb
 Unfortunately, I wasn't able to complete the second part, which was to enable users to copy the text, clear the text area, and then convert the text back to its original form. This is a challenge that I will work to overcome in the near future by improving my JavaScript skills.
 
 Thank you for taking the time to check out my project.
+
+Also check the original one:
+
+
+https://user-images.githubusercontent.com/114541799/226769821-6d2cf0b0-b231-4f40-85cb-6b7b3798152b.mov
+
